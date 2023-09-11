@@ -1,0 +1,15 @@
+:root {
+    --main-color: #224a52;
+}
+
+body {
+    background-color: darken(#bada55, 20%);
+}
+
+a {
+    color: deeppink;
+    &:hover,
+    &:active {
+        color: hotpink;
+    }
+}
