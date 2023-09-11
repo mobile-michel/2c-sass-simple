@@ -1,4 +1,6 @@
-@import 'variables';
-@import 'color';
-@import 'layout';
-@import 'text';
+@import 'components/button';
+@import 'components/header';
+@import 'config/colors';
+@import 'config/reset';
+@import 'layout/main';
+@import 'layout/navigation';

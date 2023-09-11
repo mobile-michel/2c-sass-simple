@@ -2,4 +2,20 @@
 title: A Sass Workflow
 layout: base
 ---
-Use Eleventy 2.0.1, Pico.css 2.0.0-alpha1 and Sass 1.64.2 to automatically build CSS files from the SCSS framework. Then, serve Eleventy and refresh the browser to see the modifications.
+## Simple.css sections
+1. global variables
+2. reset
+3. html, body, header, main & footer
+4. headers
+5. links & buttons
+6. navigation
+7. aside, article & section
+8. accordions with details & summary
+9. tables
+10. forms
+11. misc body elements
+12. code elements with mono font
+13. progress bars
+14. dialog
+15. Superscript & Subscript
+16. .notice class
