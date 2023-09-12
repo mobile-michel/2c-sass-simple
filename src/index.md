@@ -5,7 +5,7 @@ layout: base
 stylesheet: simple
 tags: primary
 ---
-## Simple.css sections
+## Simple.css Framework Sections
 1. global variables
 2. reset
 3. html, body, header, main & footer
@@ -23,12 +23,10 @@ tags: primary
 15. Superscript & Subscript
 16. .notice class
 
-## [2 Smartest Ways to Structure Sass](https://www.webdesignerdepot.com/2020/12/2-smartest-ways-to-structure-sass/)
 
 ### Simple Structure
-
+- [Two Smartest Ways to Structure Sass](https://www.webdesignerdepot.com/2020/12/2-smartest-ways-to-structure-sass/)
 - base or core: resets, variables, mixins & utility classes
 - layout: header, footer & grid system
 - components: buttons, navbars, cards, modals, etc.
 - main or app: import the already mentioned files
-
