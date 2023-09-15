@@ -2,7 +2,7 @@
 title: Home
 description: A Sass workflow
 layout: base
-stylesheet: simple
+stylesheet: main
 tags: primary
 ---
 ## Simple.css Framework Sections

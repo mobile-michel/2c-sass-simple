@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.setServerOptions({
         // Additional files to watch that will trigger server updates
         watch: ["_site/**/*.css"],
