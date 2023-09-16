@@ -3,7 +3,7 @@
 // 1. Abstracts
 @use 'abstracts/variables';
 @use 'abstracts/media-query';
-@use 'abstracts/colors';
+// @use 'abstracts/colors';
 @use 'abstracts/functions';
 @use 'abstracts/mixins';
 @use 'abstracts/placeholders';
@@ -17,17 +17,24 @@
 @use 'base/reset';
 @use 'base/typography';
 @use 'base/animation';
+@use 'base/table';
 
 // 4. Layout or utilities
+@use 'layout/main';
 @use 'layout/header';
 @use 'layout/sidebar';
 @use 'layout/footer';
+@use 'layout/navigation';
+@use 'layout/section';
 
 // 5. Components
 @use 'components/button';
 @use 'components/card';
 @use 'components/carousel';
 @use 'components/dropdown';
+@use 'components/accordion';
+@use 'components/progress';
+@use 'components/dialog';
 
 // 6. Pages
 @use 'pages/home';

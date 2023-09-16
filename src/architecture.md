@@ -2,7 +2,7 @@
 title: 7-1 Pattern
 description: Seven different folders and a single file at the root level
 layout: base
-stylesheet: simple
+stylesheet: test
 tags: primary
 ---
 ## 1. Abstracts

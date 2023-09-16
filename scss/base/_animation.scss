@@ -1,3 +1,21 @@
 // -----------------------------------------------------------------------------
-// This file contains all @font-face declarations, if any.
+// This file contains very basic styles.
 // -----------------------------------------------------------------------------
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+        &:hover {
+            color: var(--link-color-hover);
+        }   
+}
