@@ -1,13 +1,9 @@
-// -----------------------------------------------------------------------------
-// This file contains the color variables.
-// -----------------------------------------------------------------------------
-
 @function complementaryColor($hue) {
-    @return $hue +180;
+    @return $hue + 180;
 }
 
 @function rightAnalogousColor($hue) {
-    @return $hue +30;
+    @return $hue + 30;
 }
 
 @function leftAnalogousColor($hue) {
