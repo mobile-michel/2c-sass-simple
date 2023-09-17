@@ -2,31 +2,25 @@
 title: Home
 description: A Sass workflow
 layout: base
-stylesheet: simple-sass
+stylesheet: main
 tags: primary
 ---
 ## Simple.css Framework Sections
-1. global variables
-2. reset
-3. html, body, header, main & footer
-4. headers
-5. links & buttons
-6. navigation
-7. aside, article & section
-8. accordions with details & summary
-9. tables
-10. forms
-11. misc body elements
-12. code elements with mono font
-13. progress bars
-14. dialog
-15. Superscript & Subscript
-16. .notice class
 
-
-### Simple Structure
-- [Two Smartest Ways to Structure Sass](https://www.webdesignerdepot.com/2020/12/2-smartest-ways-to-structure-sass/)
-- base or core: resets, variables, mixins & utility classes
-- layout: header, footer & grid system
-- components: buttons, navbars, cards, modals, etc.
-- main or app: import the already mentioned files
+1. abstract/variables = global variables
+2. base/reset = reset
+3. base/base = hr, mark, img, video, figure, figcaption
+4. base/typography = links, code, superscript, subscript
+5. base/table = tables
+6. base/forms = forms
+7. layout/main = html, body
+8. layout/header = header
+9. layout/sidebar = aside
+10. layout/footer = footer
+11. layout/section = section & .notice class
+12. layout/ navigation = navigation
+13. components/button = buttons
+14. components/card = article, fieldset, dialog
+15. components/accordion = details > summary
+16. components/progress = progress bars
+17. components/dialog = dialog
