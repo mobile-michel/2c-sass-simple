@@ -2,18 +2,20 @@
 /* Simple.css v2.2.1 (May 2023) */
 /********************************/
 
+/*************************/
 /* 1. abstract/variables */
-/* Global variables. *****/
+/*************************/
+
+// Global variables. Set sans-serif & mono fonts
 :root,
 ::backdrop {
-  /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
     "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --standard-border-radius: 5px;
 
-  /* Default (light) theme */
+  // Default (light) theme
   --bg: #fff;
   --accent-bg: #f5f7ff;
   --text: #212121;
@@ -26,8 +28,9 @@
   --disabled: #efefef;
 }
 
-/* Dark theme */
+// Dark theme
 @media (prefers-color-scheme: dark) {
+
   :root,
   ::backdrop {
     color-scheme: dark;
@@ -40,7 +43,8 @@
     --preformatted: #ccc;
     --disabled: #111;
   }
-  /* Add a bit of transparency so light media isn't so glaring in dark mode */
+
+  // Add a bit of transparency so light media isn't so glaring in dark mode
   img,
   video {
     opacity: 0.8;

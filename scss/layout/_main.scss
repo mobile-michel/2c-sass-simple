@@ -1,11 +1,14 @@
+/******************/
 /* 3. layout/main */
+/******************/
+
+// Set the font globally
 html {
-  /* Set the font globally */
   font-family: var(--sans-font);
   scroll-behavior: smooth;
 }
 
-/* Make the body a nice central block */
+// Make the body a nice central block
 body {
   color: var(--text);
   background-color: var(--bg);
@@ -16,11 +19,11 @@ body {
   margin: 0;
 }
 
-body > * {
+body>* {
   grid-column: 2;
 }
 
-/* Add a little padding to ensure spacing is correct between content and header > nav */
+// Add a little padding to ensure spacing is correct between content and header > nav
 main {
   padding-top: 1.5rem;
 }

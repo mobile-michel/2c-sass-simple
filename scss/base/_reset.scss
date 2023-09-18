@@ -1,15 +1,18 @@
-/* 2. base/reset ****/
-/* Reset box-sizing */
+/*****************/
+/* 2. base/reset */
+/*****************/
+
+// Reset box-sizing
 *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* Reset default appearance */
-  textarea,
-  select,
-  input,
-  progress {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
+  box-sizing: border-box;
+}
+
+// Reset default appearance
+textarea,
+select,
+input,
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

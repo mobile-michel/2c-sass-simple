@@ -1,4 +1,7 @@
-/*  */
+/***************************/
+/* 4. components/accordion */
+/***************************/
+
   details {
     padding: 0.7rem 1rem;
   }
@@ -22,3 +25,4 @@
   details[open] > :last-child {
     margin-bottom: 0;
   }
+  
